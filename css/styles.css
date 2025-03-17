@@ -1913,6 +1913,8 @@ h2.resp-tab-title:last-child {
 @media screen and (max-width: 991px) {
   .process-style01:before {
     display: none; } }
+
+
 /* about-style01 */
 .about-style01:before {
   content: "";
@@ -2744,3 +2746,401 @@ footer .phone {
   font-size: 20px; }
 
 /*# sourceMappingURL=styles.css.map */
+
+/*--------------------------------------------------------------
+# Clients Section
+--------------------------------------------------------------*/
+.clients {
+  margin: 16px 0;
+  padding: 5px 0;
+  background: #ffffff;
+}
+
+.clients .swiper {
+  /* padding: 10px 0; */
+}
+
+.clients .swiper-wrapper {
+  height: auto;
+}
+
+.clients .logos-slide img {
+  transition: 0.3s;
+  padding: 0 10px;
+}
+
+.clients .logos-slide img:hover {
+  transform: scale(1.1);
+}
+
+.img-fluid-clients{
+  max-width: 132px;
+  
+}
+
+/* Smooth-Client-Carousel */
+
+@keyframes slide{
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+}
+
+.logoss{
+  overflow: hidden;
+  padding: 60px 0;
+  white-space: nowrap;
+}
+
+/* .logoss:hover .logos-slide{
+  animation-play-state: paused;
+} */
+
+.logos-slide{
+  display: inline-block;
+  animation: 80s slide infinite linear;
+  
+}
+
+.logos-slide img{
+  max-width: 132px;
+  margin: 0 40px;
+}
+
+@media(max-width:650px){
+  .logos-slide img{
+    margin: 0 24px;
+  }
+}
+
+
+/* Quick Links Style */
+.footer .footer-links {
+  margin-bottom: 30px;
+}
+
+.footer .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer .footer-links ul i {
+  margin-right: 3px;
+  font-size: 12px;
+  line-height: 0;
+  color: var(--accent-color);
+}
+
+.footer .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.footer .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+.footer .footer-links ul a {
+  display: inline-block;
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  line-height: 1;
+}
+
+.footer .footer-links ul a:hover {
+  color: var(--accent-color);
+}
+
+.quick-a{
+  color: #FFFFFFB3;
+  font-size: 19.2px;
+
+}
+
+/*--------------------------------------------------------------
+# POPUP - NEWS Section
+--------------------------------------------------------------*/
+.popup-form{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  
+}
+
+/* .modal-content {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: auto; /* Removes 100% width and adjusts based on content */
+  /* max-width: 30vw; Set a reasonable max width */
+  /* margin: auto; Keeps it centered */
+/* } */ 
+
+
+.modal-backdrop{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content{
+  padding:0 15px;
+}
+
+
+.modal-header{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding:0 0 15px;
+}
+
+.modal-body{
+  margin: 0 0px;
+}
+
+.popup-h2{
+  color: #202020;
+  font-size: 22px;
+  text-align: center;
+}
+
+.popup-p{
+  color: #202020;
+  font-size: 14px;
+  text-align: center;
+}
+
+.input-content{
+  background: #ffffff;
+  padding:11px 7.5px;
+  margin-top: 7px;
+  /* width: 80%; */
+  border: 1px solid #a3a1a16e;
+  border-radius: 8px;
+}
+.form-input::placeholder {
+
+  /* color: #2a97b56e; */  
+}
+
+input:active, input:focus { 
+  font-size: 10px;
+  padding-bottom: 20px;
+  border: 2px solid #0072a7;
+  outline: none; 
+  
+}
+
+.input-content::placeholder{
+  color: #a3a1a1;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+.popup-legend{
+  font-size: 16px;
+  color: #000;
+  padding:0 0 0;
+  font-family: Helvetica, sans-serif;
+  margin-top: 12px;
+}
+
+.popup-selectcompany {
+  display: flex;
+  flex-flow: column;
+  
+}
+
+/* .popup-label img{
+  display: grid;
+  grid-template-columns: 14px minmax(0px, 1fr);
+  word-break: break-word;
+  gap: 10px;
+  align-items: center;
+  font-size: 14px;
+} */
+
+.popup-span{
+  color: #000;
+
+}
+
+.child-icons{
+  width: 110px;
+  margin-left: 10px;
+}
+
+.popup-btn{
+  color: #ffffff;
+  font-size: 16px;
+  background: #202020;
+  background: #47b2e4;
+  padding:11px 15px;
+  border:none !important;
+  border-radius: 8px;
+  /* border-radius: 50px; */
+  margin-top: 14px;
+}
+
+.popup-btn:hover{
+  background:  #00a1f1;
+  transform: translateY(-2px);
+
+}
+
+.popup-btn:active{
+  background: #47b2e4;
+  transform: translateY(0px);
+}
+
+.popup-logo{
+  width: 180px ;
+  margin-bottom: 10px;
+}
+.btn-closee{
+  display: flex;
+  justify-content: right;
+}
+
+.btn-close{
+  margin-top: 10px;
+  /* margin-left:440px; */
+}
+.popup-p2{
+  color: #202020;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 12px;
+}
+.form-floating{
+  position: relative;
+}
+.icon{
+  position: absolute;
+  top:calc(20%);
+  left: 12px;  
+}
+.form-floating .form-control{
+  left: 20px;
+  padding-left: 50px;
+  font-size: 16px;
+}
+
+.form-floating label{
+  margin-left: 40px;
+}
+
+.size{
+  font-size: 24px;
+}
+
+/* --------------------------------------------------------------
+#POPUPS
+-------------------------------------------------------------- */
+.prpo-divh4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prpo-h4{
+  font-size: 40px !important;
+  font-weight: 550 !important;
+  color: #121212;
+}
+
+.prpo-p{
+  font-size: 16px;
+  text-align: justify;
+}
+
+.prpo-ul{
+  font-size: 16px;
+  text-align: justify;
+}
+
+.prpo-h3{
+  margin-top: 25px !important;
+  font-size: 24px !important;
+  font-weight: 550 !important;
+  color: #121212;
+
+}
+
+.prpo-h2{
+  margin-top: 25px !important;
+  font-size: 18px !important;
+  font-weight: 550 !important;
+  color: #121212;
+
+}
+
+.prpo-header{
+  padding:15px 15px !important;
+ 
+}
+
+.prpo-table{
+  margin-bottom: 25px !important;
+  border: 1px solid grey;
+}
+
+th{
+  padding: 12px;
+  text-align: center;
+  border: 1px solid grey;
+}
+
+td{
+  padding: 12px;
+  border: 1px solid grey;
+}
+
+.prpo-p a{
+  color: #121212;
+  text-decoration: underline #121212;
+}
+
+.prpo-p1{
+  font-size: 16px;
+  margin-bottom: 8px !important;
+
+}
+
+.contactInfo-heading{
+  margin-top: 25px !important;
+  margin-bottom: 8px !important;
+
+}
+
+.PrPo-Modal{
+  height: 720px !important;
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
+  padding:  0 10px !important;
+}
+
+.dropdown-career{
+  height: 58px;
+  padding:16px 12px; 
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+}
+
+.careerInfo-heading{
+  margin-top: 30px !important;
+}
+
+.sticky-header{
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 1050;
+  box-shadow:0  7px 5px -5px rgba(0,0,0,0.1);
+
+}
