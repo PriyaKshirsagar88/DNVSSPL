@@ -47,7 +47,7 @@
             var logodefault = $(".navbar-brand.logodefault img");
             if (scroll <= 50) {
                 $("header").removeClass("scrollHeader").addClass("fixedHeader");
-                logochange.attr('src', 'img/dnvLogo.png');
+                logochange.attr('src', 'img/logos/logo-inner.png');
                 logodefault.attr('src', 'img/dnvLogo.png');
             } 
             else {
