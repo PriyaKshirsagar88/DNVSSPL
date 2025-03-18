@@ -1914,6 +1914,22 @@ h2.resp-tab-title:last-child {
   .process-style01:before {
     display: none; } }
 
+    .box1{
+      background-color: rgba(251, 1, 1, 0.286) !important;
+    
+    }
+
+    .box2{
+      background-color: rgba(207, 176, 64, 0.286) !important;
+      margin-top: 10px ;
+    }
+
+    .box3{
+      background-color: rgb(96, 34, 137, 0.268) !important;
+      margin-top: 4px;
+    }
+
+
 
 /* about-style01 */
 .about-style01:before {
