@@ -2297,7 +2297,6 @@ h2.resp-tab-title:last-child {
   margin-bottom: 1.5rem; }
   .feature-box1 .services .icons img {
     width: 45px;
-    width: auto !important;
    }
 .feature-box1 .services:hover .icons {
   background-color: #34da89;
