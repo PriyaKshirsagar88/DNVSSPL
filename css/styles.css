@@ -2285,6 +2285,7 @@ h2.resp-tab-title:last-child {
   width: 85px;
   height: 85px;
   background-color: #4a83fd;
+  background-color: #5d1b8c; 
   color: #fff;
   border-radius: 50%;
   margin: 0 auto;
@@ -2295,9 +2296,13 @@ h2.resp-tab-title:last-child {
   transition: 0.5s;
   margin-bottom: 1.5rem; }
   .feature-box1 .services .icons img {
-    width: 45px; }
+    width: 45px;
+    width: auto !important;
+   }
 .feature-box1 .services:hover .icons {
-  background-color: #34da89; }
+  background-color: #34da89;
+  background-color: #009940;
+ }
   .feature-box1 .services:hover .icons i {
     color: #fff; }
 .feature-box1 .services .service-btn {
@@ -3165,3 +3170,8 @@ td{
 .branchLogos{
   width: 250px;
 }
+
+/* Humanitech feature icons */
+.humanitech .services .icons img {
+  width: auto !important;
+ }
