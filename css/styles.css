@@ -3160,3 +3160,8 @@ td{
   box-shadow:0  7px 5px -5px rgba(0,0,0,0.1);
 
 }
+
+/* Branch Logos */
+.branchLogos{
+  width: 250px;
+}
